@@ -1,3 +1,34 @@
+let propArr = `
+    [
+        {
+            "name": "Cola",
+            "category": "Beverage",
+            "quantity": 28,
+            "model": "COC"
+        },
+
+        {
+            "name": "Potato Chip",
+            "category": "Snack",
+            "quantity": 100,
+            "model": "VCUT"
+        },
+
+        {
+            "name": "Latte",
+            "category": "Beverage",
+            "quantity": 55,
+            "model": "STAR"
+        }
+    ]
+
+`;
+
+let parsedObject = JSON.parse(propArr);
+
+let objectString = JSON.stringify(parsedObject);
+
+
 let users = ` [
         {
             "id": 1,
